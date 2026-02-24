@@ -11,6 +11,7 @@ cli = ["timefhuman"]
 today = "today.cli:main"
 week = "today.cli:week"
 month = "today.cli:month"
+kv_manager = "today.kv_cli:main"
 
 [build-system]
 requires = ["hatchling"]

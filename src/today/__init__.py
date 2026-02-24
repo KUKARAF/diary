@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 from today.config import load_config
+from today.kv import KVManager
 
 
 class DiaryDate:
