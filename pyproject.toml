@@ -9,6 +9,8 @@ cli = ["timefhuman"]
 
 [project.scripts]
 today = "today.cli:main"
+week = "today.cli:week"
+month = "today.cli:month"
 
 [build-system]
 requires = ["hatchling"]

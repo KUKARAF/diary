@@ -12,3 +12,15 @@ def main():
     else:
         dt = diary.parse(" ".join(args))
         print(diary.filepath(dt))
+
+
+def week():
+    diary = DiaryDate()
+    for path in diary.week_files():
+        print(path)
+
+
+def month():
+    diary = DiaryDate()
+    for path in diary.month_files():
+        print(path)
