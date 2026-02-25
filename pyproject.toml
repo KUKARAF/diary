@@ -8,9 +8,7 @@ dependencies = []
 cli = ["timefhuman"]
 
 [project.scripts]
-today = "today.cli:main"
-week = "today.cli:week"
-month = "today.cli:month"
+diary = "today.cli:main"
 kv_manager = "today.kv_cli:main"
 
 [build-system]
