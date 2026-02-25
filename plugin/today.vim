@@ -1,6 +1,6 @@
-command! -nargs=* Today call s:Today(<q-args>)
+command! -nargs=* Diary call s:Diary(<q-args>)
 
-function! s:Today(args) abort
+function! s:Diary(args) abort
   let l:cmd = 'diary'
   if !empty(a:args)
     let l:cmd .= ' ' . a:args
